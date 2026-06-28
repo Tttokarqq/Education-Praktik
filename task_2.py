@@ -14,7 +14,6 @@ def solve():
         return parent[i]
 
     components = n
-
     idx = 2
     for _ in range(m):
         u = int(input_data[idx])
@@ -32,4 +31,3 @@ def solve():
 
 
 solve()
-# git commit --date="2026-06-22 14:31:09" -m "коммит"
